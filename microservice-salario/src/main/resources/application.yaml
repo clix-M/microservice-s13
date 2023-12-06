@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: microservice-salario
+  config:
+    import: optional:configserver:http://localhost:8888

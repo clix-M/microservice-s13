@@ -1,0 +1,22 @@
+eureka:
+  client:
+    register-with-eureka: false
+
+server:
+  port: 8080
+
+spring:
+    application:
+        name: microservice-gateway
+    cloud:
+        gateway:
+            routes:
+            - id: microservice-personal
+              uri: http://localhost:8081
+              predicates:
+              - Path=/api/personal/**
+            - id: microservice-salario
+              uri: http://localhost:8082
+              predicates:
+              - Path=/api/salario/**
+

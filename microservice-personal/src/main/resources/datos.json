@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Juan",
+        "birthDate": "1980-01-01",
+        "workingHours": 8.0,
+        "position": "Tecnico-I",
+        "workplace": "Sucursal-1"
+    },
+    {
+        "name": "Ana",
+        "birthDate": "1985-01-01",
+        "workingHours": 8.0,
+        "position": "Tecnico-II",
+        "workplace": "Sucursal-2"
+    },
+    {
+        "name": "Pedro",
+        "birthDate": "1982-01-01",
+        "workingHours": 8.0,
+        "position": "Tecnico-I",
+        "workplace": "Sucursal-3"
+    },
+    {
+        "name": "Maria",
+        "birthDate": "1986-01-01",
+        "workingHours": 8.0,
+        "position": "Tecnico-II",
+        "workplace": "Sucursal-1"
+    },
+    {
+        "name": "Carlos",
+        "birthDate": "1981-01-01",
+        "workingHours": 8.0,
+        "position": "Tecnico-I",
+        "workplace": "Sucursal-2"
+    }
+]
